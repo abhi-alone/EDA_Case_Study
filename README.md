@@ -30,13 +30,15 @@ When a person applies for a loan, there are two types of decisions that could be
 - Loan rejected: The company had rejected the loan (because the candidate does not meet their requirements etc.). Since the loan was rejected, there is no transactional history of those applicants with the company and so this data is not available with the company (and thus in this dataset)
 
 ## Conclusions
-- The annual income graph shows the annual income of the borrower who have applied for the loan. 
-  - This is an important plot to understand that the people with higher income tend to be more liable to pay the loan amount.
-  - Thus the bank has more trust on the people having higher income.
-- This LOAN amount box plot shows the loan amount that a person goes and apply in a bank. It is observed that the higher loan amount tends to be having more Emi. Thus this plot relates with the annual income so a person with higher income may opt for a bigger loan amount.
-- The Employee experience vs loan graph shows that the employee with more experience tend to fully pay the loan. 
-  - So an experience employee will have a high chance of being in non defaulter list.
-- Correlation graph: This example shows the data plot in terms of all the relevant criteria being used. The correlation of the loan amount with the annual income suggest that annual income if being on higher side tend to help in paying the loan more easily.
+- Total ~5000 loans those are charge off.
+- Total >30000 loans those are fully paid.
+- Maximum number of loans are charged off for the those who are living on rent.
+- Maximum number of loans are charged off for the loan taken for debt_consolidation.
+- Maximum number of loans are charged off for the loans applied for 36 months of Loan Term.
+- Maximum number of loans are charged off for the loans belong to Grade B and C.
+- The intrest rate has an negative correlation with the Annual Income.
+- The Loan Amount and Funded amount shares an positive correlation.
+- The Gade A and Grade B people are much safe as compare to the Grade F and G.
 
 ## Technologies Used
 - NUMPY: 1.20.3
