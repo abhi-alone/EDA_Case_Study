@@ -31,30 +31,18 @@ When a person applies for a loan, there are two types of decisions that could be
 
 ## Conclusions
 - The annual income graph shows the annual income of the borrower who have applied for the loan. 
- This is an important plot to understand that the people with higher income tend to be more liable to pay the loan amount. 
- Thus the bank has more trust on the people having higher income.
-
+  - This is an important plot to understand that the people with higher income tend to be more liable to pay the loan amount.
+  - Thus the bank has more trust on the people having higher income.
 - This LOAN amount box plot shows the loan amount that a person goes and apply in a bank. It is observed that the higher loan amount tends to be having more Emi. Thus this plot relates with the annual income so a person with higher income may opt for a bigger loan amount.
-
 - The Employee experience vs loan graph shows that the employee with more experience tend to fully pay the loan. 
- So an experience employee will have a high chance of being in non defaulter list.
-
+  - So an experience employee will have a high chance of being in non defaulter list.
 - Correlation graph: This example shows the data plot in terms of all the relevant criteria being used. The correlation of the loan amount with the annual income suggest that annual income if being on higher side tend to help in paying the loan more easily.
 
-
-
-
 ## Technologies Used
-# Import the libraries
-from numpy import * # for scientific computing
-from pandas import * # for data analysis
-from matplotlib.pyplot import * # for data visualization and graphical plotting
-import seaborn as sb_plt
-
-## Acknowledgements
-- References if any...
-- This project was based on Exploratory Data Analysis
-
+- NUMPY: 1.20.3
+- PANDAS: 1.3.4
 
 ## Contact
-Created by [https://github.com/abhi-alone] - feel free to contact me!
+Created by:
+- Abhishekh Pareshkumar Shah [[https://github.com/abhi-alone]]
+- Rishabh Anand [https://github.com/Rishabhanand1994]
