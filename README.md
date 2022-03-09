@@ -30,22 +30,31 @@ When a person applies for a loan, there are two types of decisions that could be
 - Loan rejected: The company had rejected the loan (because the candidate does not meet their requirements etc.). Since the loan was rejected, there is no transactional history of those applicants with the company and so this data is not available with the company (and thus in this dataset)
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+- The annual income graph shows the annual income of the borrower who have applied for the loan. 
+ This is an important plot to understand that the people with higher income tend to be more liable to pay the loan amount. 
+ Thus the bank has more trust on the people having higher income.
+
+- This LOAN amount box plot shows the loan amount that a person goes and apply in a bank. It is observed that the higher loan amount tends to be having more Emi. Thus this plot relates with the annual income so a person with higher income may opt for a bigger loan amount.
+
+- The Employee experience vs loan graph shows that the employee with more experience tend to fully pay the loan. 
+ So an experience employee will have a high chance of being in non defaulter list.
+
+- Correlation graph: This example shows the data plot in terms of all the relevant criteria being used. The correlation of the loan amount with the annual income suggest that annual income if being on higher side tend to help in paying the loan more easily.
+
 
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+# Import the libraries
+from numpy import * # for scientific computing
+from pandas import * # for data analysis
+from matplotlib.pyplot import * # for data visualization and graphical plotting
+import seaborn as sb_plt
 
 ## Acknowledgements
 - References if any...
-- This project was based on [this tutorial](https://www.example.com).
+- This project was based on Exploratory Data Analysis
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by [https://github.com/abhi-alone] - feel free to contact me!
